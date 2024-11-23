@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_page">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/login_banner"
+            android:layout_width="412dp"
+            android:layout_height="178dp"
+            android:contentDescription="login_banner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/login_banner" />
+
+        <TextView
+            android:id="@+id/wcback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="77dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="WELCOME BACK"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_banner" />
+
+        <TextView
+            android:id="@+id/login_to_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginEnd="128dp"
+            android:text="Login to your account"
+            android:textColor="#D9D9D9"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wcback" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="223dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="166dp"
+            android:layout_marginEnd="94dp"
+            android:backgroundTint="#266550"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="119dp"
+            android:text=" Sign up"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginbtn" />
+
+        <TextView
+            android:id="@+id/dont_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:text="Don'y have account?"
+            android:textColor="#424242"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginbtn" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  DLSU email"
+            android:inputType="textEmailAddress"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_to_account" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

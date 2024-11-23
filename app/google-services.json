@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515747850554",
+    "project_id": "mco3-50861",
+    "storage_bucket": "mco3-50861.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515747850554:android:fe854d7b6907293a7f0803",
+        "android_client_info": {
+          "package_name": "com.mobdeve.s13.grp50.mc02_mobdeve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLlB0SQIRCl31U4DUDWorAKDBK8jlKx9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

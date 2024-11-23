@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_main_menu.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:/layout/activity_report.xml",
+        "source": "com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:/layout/activity_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_login_page.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\confirmation_dialog.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\confirmation_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_report.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\faq.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_signup_page.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_signup_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\report_entry.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\report_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\rate_popup.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\rate_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_submitted_reports.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_submitted_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\activity_faq.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\activity_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-mergeDebugResources-40:\\layout\\drawer_menu.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.7\\com.mobdeve.s13.grp50.mc02_mobdeve.app-main-43:\\layout\\drawer_menu.xml"
+    }
+]

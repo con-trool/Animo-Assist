@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MC02-MOBDEVE</string>
+    <string name="enter_floor_room">Enter floor/room (e.g., 2F/Room 201)</string>
+
+    <string-array name="location_array">
+        <item>LSM - St. Miguel Hall</item>
+        <item>EY - Don Enrique Yuchengco Hall</item>
+        <item>VL - Velasco Hall</item>
+        <item>ER - Enrique Razon Sports Center</item>
+        <item>SJ - St. Joseph Hall</item>
+        <item>G - Gokongwei Hall</item>
+        <item>LS - St. La Salle Hall</item>
+        <item>AG - Br. Andrew Gonzales Hall</item>
+        <item>ST - Science and Technology Research Center</item>
+        <item>MM - St. Mutien Marie Hall</item>
+    </string-array>
+
+</resources>
