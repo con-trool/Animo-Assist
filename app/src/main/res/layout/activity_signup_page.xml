@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_page">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Add UI components inside the LinearLayout here -->
+
+        <ImageView
+            android:id="@+id/signup_banner"
+            android:layout_width="423dp"
+            android:layout_height="176dp"
+            android:contentDescription="signup_banner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/signup_banner" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="141dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="117dp"
+            android:text="Create your new account"
+            android:textColor="#D9D9D9"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup" />
+
+        <EditText
+            android:id="@+id/editTextfirstname"
+            android:layout_width="146dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  First name"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/create_account" />
+
+        <EditText
+            android:id="@+id/editTextlastname"
+            android:layout_width="146dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  Last name"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/create_account" />
+
+        <EditText
+            android:id="@+id/editTextidnum"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  ID number"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextfirstname" />
+
+        <EditText
+            android:id="@+id/editTextcourse"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  Course program"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextidnum" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  DLSU email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextcourse" />
+
+        <TextView
+            android:id="@+id/emailWarningText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="1dp"
+            android:text="Email is already registered"
+            android:textColor="#FF0000"
+            android:textSize="10sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="49dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+        <Button
+            android:id="@+id/registerbtn"
+            android:layout_width="223dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="94dp"
+            android:backgroundTint="#266550"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+        <TextView
+            android:id="@+id/already_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="12dp"
+            android:text="Already have an account?"
+            android:textColor="#424242"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerbtn" />
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="100dp"
+            android:text=" Sign in"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerbtn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
